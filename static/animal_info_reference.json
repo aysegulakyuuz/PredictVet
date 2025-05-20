@@ -1,0 +1,301 @@
+{
+  "cattle": {
+    "age": [
+      0.5,
+      15
+    ],
+    "temperature": [
+      38.0,
+      39.5
+    ],
+    "symptoms": [
+      "fever",
+      "diarrhea",
+      "abortion",
+      "nasal discharge",
+      "swollen lymph nodes"
+    ],
+    "valid_symptoms": [
+      "abortion",
+      "anemia",
+      "diarrhea",
+      "fever",
+      "infertility",
+      "nasal discharge",
+      "swollen lymph nodes"
+    ]
+  },
+  "cow": {
+    "age": [
+      0.5,
+      15
+    ],
+    "temperature": [
+      38.0,
+      39.5
+    ],
+    "symptoms": [
+      "weight loss",
+      "poor growth",
+      "diarrhea"
+    ],
+    "valid_symptoms": [
+      "blisters on gums",
+      "blisters on hooves",
+      "blisters on mouth",
+      "blisters on tongue",
+      "chest discomfort",
+      "chills",
+      "cough",
+      "crackling sound",
+      "depression",
+      "diarrhea",
+      "difficulty walking",
+      "fatigue",
+      "fever",
+      "high fever",
+      "labored breathing",
+      "lameness",
+      "loss of appetite",
+      "mouth lesions",
+      "muscle swelling",
+      "nasal discharge",
+      "painful udder",
+      "painless lumps",
+      "poor growth",
+      "reduced milk",
+      "salivation",
+      "shortness of breath",
+      "sores on gums",
+      "sores on hooves",
+      "sores on mouth",
+      "sores on tongue",
+      "sweats",
+      "swelling in abdomen",
+      "swelling in extremities",
+      "swelling in limb",
+      "swelling in muscle",
+      "swelling in neck",
+      "swollen udder",
+      "weakness",
+      "weight loss"
+    ]
+  },
+  "goat": {
+    "age": [
+      0.5,
+      12
+    ],
+    "temperature": [
+      38.5,
+      40.5
+    ],
+    "symptoms": [
+      "swollen udder",
+      "decreased milk",
+      "pain",
+      "abortion",
+      "fever"
+    ],
+    "valid_symptoms": [
+      "abortion",
+      "blisters on gums",
+      "blisters on hooves",
+      "blisters on mouth",
+      "blisters on tongue",
+      "bloody diarrhea",
+      "chest discomfort",
+      "chills",
+      "coughing",
+      "crackling sound",
+      "decreased milk",
+      "dehydration",
+      "depression",
+      "diarrhea",
+      "difficulty breathing",
+      "difficulty walking",
+      "fatigue",
+      "fever",
+      "joint swelling",
+      "lameness",
+      "lethargy",
+      "loss of appetite",
+      "nasal discharge",
+      "pain",
+      "painless lumps",
+      "shortness of breath",
+      "sores on gums",
+      "sores on hooves",
+      "sores on mouth",
+      "sores on tongue",
+      "sweats",
+      "swelling in abdomen",
+      "swelling in extremities",
+      "swelling in limb",
+      "swelling in muscle",
+      "swelling in neck",
+      "swollen udder",
+      "weakness"
+    ]
+  },
+  "sheep": {
+    "age": [
+      0.5,
+      10
+    ],
+    "temperature": [
+      38.5,
+      40.8
+    ],
+    "symptoms": [
+      "sudden death",
+      "depression",
+      "diarrhea",
+      "itching"
+    ],
+    "valid_symptoms": [
+      "blisters on gums",
+      "blisters on hooves",
+      "blisters on mouth",
+      "blisters on tongue",
+      "chest discomfort",
+      "chills",
+      "crackling sound",
+      "depression",
+      "diarrhea",
+      "difficulty walking",
+      "fatigue",
+      "hair loss",
+      "intense itching",
+      "itching",
+      "lameness",
+      "loss of appetite",
+      "loss of coordination",
+      "painless lumps",
+      "paralysis",
+      "shortness of breath",
+      "skin lesions",
+      "sores on gums",
+      "sores on hooves",
+      "sores on mouth",
+      "sores on tongue",
+      "sudden death",
+      "sweats",
+      "swelling in abdomen",
+      "swelling in extremities",
+      "swelling in limb",
+      "swelling in muscle",
+      "swelling in neck"
+    ]
+  },
+  "dog": {
+    "age": [
+      0.2,
+      20
+    ],
+    "temperature": [
+      38.3,
+      39.2
+    ],
+    "symptoms": [
+      "aggression",
+      "drooling",
+      "staggering"
+    ],
+    "valid_symptoms": [
+      "aggression",
+      "drooling",
+      "staggering"
+    ]
+  },
+  "buffalo": {
+    "age": [
+      1,
+      20
+    ],
+    "temperature": [
+      37.8,
+      40.5
+    ],
+    "symptoms": [
+      "fever",
+      "fatigue",
+      "lameness"
+    ],
+    "valid_symptoms": [
+      "blisters on gums",
+      "blisters on hooves",
+      "blisters on mouth",
+      "blisters on tongue",
+      "chest discomfort",
+      "chills",
+      "crackling sound",
+      "depression",
+      "difficulty walking",
+      "fatigue",
+      "lameness",
+      "loss of appetite",
+      "painless lumps",
+      "shortness of breath",
+      "sores on gums",
+      "sores on hooves",
+      "sores on mouth",
+      "sores on tongue",
+      "sweats",
+      "swelling in abdomen",
+      "swelling in extremities",
+      "swelling in limb",
+      "swelling in muscle",
+      "swelling in neck"
+    ]
+  },
+  "chicken": {
+    "age": [
+      0.2,
+      8
+    ],
+    "temperature": [
+      40.5,
+      42.5
+    ],
+    "symptoms": [
+      "drop in egg",
+      "purple comb",
+      "crackling sound"
+    ],
+    "valid_symptoms": [
+      "balance loss",
+      "bloody diarrhea",
+      "drop in egg",
+      "labored breathing",
+      "purple comb",
+      "respiratory distress"
+    ]
+  },
+  "horse": {
+    "age": [
+      0.5,
+      30
+    ],
+    "temperature": [
+      37.5,
+      38.5
+    ],
+    "symptoms": [
+      "lameness",
+      "difficulty walking",
+      "respiratory distress"
+    ],
+    "valid_symptoms": [
+      "abdominal pain",
+      "cough",
+      "difficulty walking",
+      "fatigue",
+      "hot hooves",
+      "lameness",
+      "loss of appetite",
+      "nasal discharge",
+      "rolling"
+    ]
+  }
+}

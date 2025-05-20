@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PredictVet</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h1>PredictVet: AI-Supported Animal Disease Prediction</h1>
+
+    <form method="POST" action="/predict">
+        <label for="animal">Select Animal:</label>
+<div id="reference-info"></div>
+        <select id="animal" name="animal" required>
+            <option value="">--Select Animal--</option>
+            {% for a in animal_list %}
+                <option value="{{ a }}" {% if a == animal %}selected{% endif %}>{{ a.capitalize() }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" step="0.1" value="{{ age or '' }}" required>
+
+        <label for="temperature">Temperature (°C):</label>
+        <input type="number" id="temperature" name="temperature" step="0.1" value="{{ temperature or '' }}" required>
+
+        <label>Symptoms:</label>
+        <p class="symptom-tip">⚠ It is recommended to select at least 2 symptoms. </p>
+
+        {% for group, symptoms in symptom_groups.items() %}
+        <fieldset>
+            <legend><strong>{{ group }}</strong></legend>
+            {% for s in symptoms %}
+            <label>
+                <input type="checkbox" name="symptoms" value="{{ s }}" {% if symptoms_selected and s in symptoms_selected %}checked{% endif %}>
+                {{ s }}
+            </label><br>
+            {% endfor %}
+        </fieldset>
+        {% endfor %}
+
+        <div style="margin-top:1rem;">
+            <button type="submit">Predict</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+  
+    
+    
+
+
+{% if prediction_text %}
+  <div class="result">
+    <h3>Result:</h3>
+    <p>{{ prediction_text }}</p>
+    {% if summary and summary.symptoms %}
+      <p style="font-size: 0.95rem; margin-top: 0.5rem; color: #333;">
+        (Animal: {{ summary.animal }} | Age: {{ summary.age }} | Temperature: {{ summary.temperature }}°C | Symptoms: {{ summary.symptoms | join(", ") }})
+      </p>
+    {% endif %}
+  </div>
+{% endif %}
+
+  
+
+    
+</div>
+</body>
+</html>

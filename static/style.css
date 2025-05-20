@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(1px);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #004d4d;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+input, select {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007777;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: #005e5e;
+}
+
+.result {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #e0f7f7;
+    border-left: 5px solid #007777;
+    border-radius: 6px;
+}
+
+.symptom-tip {
+    font-size: 0.9rem;
+    color: #c26300;
+    font-weight: 500;
+}
+
+.info-section {
+    margin-top: 2rem;
+    background: rgba(240, 255, 255, 0.85);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #008888;
+}
+
+.summary-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f0fcff;
+    border-left: 5px solid #00acc1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.summary-box::before {
+    content: "📋 Your Input Summary";
+    display: block;
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+    color: #007777;
+}

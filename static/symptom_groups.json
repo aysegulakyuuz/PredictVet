@@ -1,0 +1,82 @@
+{
+  "Respiratory Symptoms": [
+    "cough",
+    "nasal discharge",
+    "shortness of breath",
+    "labored breathing",
+    "respiratory distress",
+    "difficulty breathing",
+    "coughing",
+    "high fever"
+  ],
+  "Digestive Symptoms": [
+    "diarrhea",
+    "bloody diarrhea",
+    "loss of appetite",
+    "abdominal pain",
+    "abortion",
+    "decreased milk",
+    "pain",
+    "infertility",
+    "dehydration"
+  ],
+  "Neurological / Balance": [
+    "balance loss",
+    "paralysis",
+    "depression",
+    "difficulty walking",
+    "anemia",
+    "lethargy",
+    "weakness",
+    "loss of coordination"
+  ],
+  "Muscle / Limb / Joint": [
+    "swelling in limb",
+    "lameness",
+    "joint swelling",
+    "hot hooves",
+    "swelling in extremities",
+    "muscle swelling",
+    "swelling in muscle",
+    "swelling in neck",
+    "swelling in abdomen"
+  ],
+  "General Symptoms": [
+    "fever",
+    "chills",
+    "fatigue",
+    "sweats",
+    "painless lumps",
+    "salivation",
+    "sudden death",
+    "reduced milk",
+    "poor growth",
+    "weight loss"
+  ],
+  "Other Symptoms": [
+    "drop in egg",
+    "purple comb",
+    "chest discomfort",
+    "rolling",
+    "crackling sound",
+    "aggression",
+    "drooling",
+    "staggering",
+    "blisters on gums",
+    "blisters on hooves",
+    "blisters on mouth",
+    "blisters on tongue",
+    "sores on gums",
+    "sores on hooves",
+    "sores on mouth",
+    "sores on tongue",
+    "swollen udder",
+    "painful udder",
+    "itching",
+    "intense itching",
+    "hair loss",
+    "swollen lymph nodes",
+    "mouth lesions",
+    "skin lesions"
+  ]
+}
