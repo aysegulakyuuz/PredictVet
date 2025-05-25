@@ -11,6 +11,14 @@ To develop a user-friendly AI system for early disease detection in animals, hel
 
 ---
 
+📥 Dataset Source
+
+The foundational dataset used in this project is the [Livestock Disease Diagnosis Dataset](https://www.kaggle.com/datasets/captaingee/livestock-disease-diagnosis-dataset) by Captain_Gee on Kaggle. It includes structured data on various animal diseases and their associated symptoms, making it suitable for machine learning applications.
+
+To improve the accuracy and realism of the model, the dataset was manually enriched with additional diseases, symptoms, and species-specific reference values. These enhancements were made based on veterinary publications, academic research, and animal health manuals.
+
+
+
 🧠 Features
 
 - Disease prediction using a trained **RandomForestClassifier**
